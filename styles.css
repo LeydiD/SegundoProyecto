@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url("hq.jpg") no-repeat;
+    background: url("imagenFondo.jpeg") no-repeat;
     background-size: cover;
     font-family: 'century Gothic', sans-serif;
 }
@@ -79,7 +79,7 @@ nav ul li a:hover::before{
 h1{
     font-family: 'Abril Fatface', cursive;
     font-size: 40px;
-    color: rgb(63, 31, 206);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 h2{
