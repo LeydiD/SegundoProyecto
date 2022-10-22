@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Calabacín & display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("hq.jpg") no-repeat;
+    background-size: cover;
+    font-family: 'century Gothic', sans-serif;
+}
+
+nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 0px;
+}
+nav li:hover> ul{
+    display: block;
+
+}
+header{
+    background-color: rgba(255, 255, 255, 0.412) ;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    height: 50px;
+}
+.menu{
+    width: 900 px;
+    margin: 0 ;
+}
+
+
+nav{
+    float:right;
+}
+nav ul li{
+    list-style: none;/*borrar viñetas*/
+    margin-left: 75px;
+    margin-right: 60px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.lista li{
+    margin-left: 0;
+    margin-right: 2px ;
+    width: 140px;
+    padding: 12px 0;
+    background-color: rgba(255, 255, 255, 0.5) ;
+}
+nav ul li a::before{
+
+    display: block;
+    content: '';
+    width: 0%;
+    background-color: blueviolet;
+    height: 5px;
+    top:0;
+    position: absolute;
+    transition: width 0.2s;
+}
+nav ul li a:hover::before{
+    width:100%;
+}
+
+.lista li:hover{
+    background-color: rgb(169, 162, 173);
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    color: rgb(63, 31, 206);
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: 'Calabacín', cursiva;
+}
+.contenedor p{
+    text-align: center;
+}
+.contenedor{
+    width: 500px;
+    height: 400px;
+    background:rgba(255, 255, 255, 0.5) ;
+    margin-left: 6em;
+    margin-top: 8em;
+    padding: 70px ; /* el cuadro*/
+    color: while;
+    text-align:center;
+    border-radius: 50px;
+}
